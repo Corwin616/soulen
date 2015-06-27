@@ -1,0 +1,12 @@
+<script type="text/javascript">
+	$(document).ready(function() {
+ 		resizeChat();
+	});
+	$(window).resize(function() {
+ 		resizeChat();
+	});
+
+	function resizeChat() {
+ 	$('#chat').attr('src','http://chat.sc2tv.ru/index.htm?channelId=164433&stop=&width=' + $('#chat').width() + '&height=' + $('#chat').height());
+	}
+</script>

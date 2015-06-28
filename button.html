@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<meta charset='utf-8' />
+		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+		<meta name="description" content="Moscow Taxi" />
+		<title>Moscow Taxi</title>
+		
+		<style>
+			#btn1 {
+				width: 100%;
+				height: 100%;
+				padding: 0px;
+				cursor: pointer;
+				background-color: #134688;
+				border: 0px;
+				outline: none;
+			}
+		</style>
+		
+		<script>
+			function map() {
+				parent.document.getElementsByTagName( 'mapframe' )[ 0 ].rows="10,0";
+			}
+		</script>
+		
+	</head>
+	<body text="#AE0000" style="margin: 0px; padding:0px; height: 100%; width: 100%; overflow:hidden;" bgcolor="#000000">
+		 <button id="btn1" onclick="map()"></button> 
+	</body>
+</html>
+
+

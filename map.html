@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta charset='utf-8' />
+		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+		<meta name="description" content="Moscow Taxi" />
+		<title>Moscow Taxi</title>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		
+		<script>
+			$(document).ready(function() {
+			  $("#help").hide();
+			  $("#help").delay(10000);
+			  $("#help").slideDown('slow');
+			  $("#help").delay(15000);
+			  $("#help").slideUp();
+			  $("#btn4").click(function() {
+				$("#help").stop();
+				$("#help").hide();
+			  });
+			});
+	  </script>
+		
+	</head>
+	<body text="#AE0000" style="margin: 0px; padding:0px; height: 100%; width: 100%; overflow:hidden;" bgcolor="#000000">
+	
+	<table style="width: 100%; height: 100%" cellspacing="0" cellpadding="0">
+		<tr>
+		<td>
+			<iframe style="overflow:hidden;height:100%;width:100%;margin: 0px; padding:0px;" 
+					width="100%" height="100%" frameborder="0" scrolling="no"
+					src="http://www.greenalp.com/RealTimeTracker/index.php?guestmode=1&fs=1&viewuser=corwin616"></iframe>
+			</td>
+		  </tr>
+			<tr>
+        <td width="230">
+          <div id="help">
+            <p>
+              <img alt="" src="img/help.png"></img>
+            </p>
+            <p>
+              <div style="width:414px;font:10px sans;color:#999999;padding:0px;"><div><a style="margin:0px;padding:0px;" href="http://www.greenalp.com"><img style="padding:0px;margin:0px;" src="http://www.greenalp.com/RealTimeTracker/downloads/logos/RealTimeTracker.png" alt="Free real-time tracking. Free GPS tracker. Show your location live on Google Maps. Free for your Android phone."/></a></div><div style="margin:2px 0px;"><a style="margin:0px;padding:0px;" href="http://www.greenalp.com">Show your location live on Google Maps. Free real-time GPS tracker for Android.</a></div></div>
+            </p>
+          </div>
+        </td>
+      </tr>
+	  </table>
+	</body>
+</html>
